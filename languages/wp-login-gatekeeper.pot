@@ -1,0 +1,93 @@
+# Copyright (C) 2026 Patrick Pézier
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Login Gatekeeper 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-login-gatekeeper\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-05-27T12:15:07+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: wp-login-gatekeeper\n"
+
+#. Plugin Name of the plugin
+#: wp-login-gatekeeper.php
+#: includes/settings.php:47
+#: includes/settings.php:48
+msgid "WP Login Gatekeeper"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: wp-login-gatekeeper.php
+msgid "https://github.com/ppezier/WP-Login-Gatekeeper"
+msgstr ""
+
+#. Description of the plugin
+#: wp-login-gatekeeper.php
+msgid "Bring Cloudflare Turnstile protection to all native WordPress forms"
+msgstr ""
+
+#. Author of the plugin
+#: wp-login-gatekeeper.php
+msgid "Patrick Pézier"
+msgstr ""
+
+#. Author URI of the plugin
+#: wp-login-gatekeeper.php
+msgid "https://patrick.pezier.com/"
+msgstr ""
+
+#: includes/settings.php:30
+msgid "Settings"
+msgstr ""
+
+#: includes/settings.php:87
+msgid "Cloudflare Turnstile Keys"
+msgstr ""
+
+#: includes/settings.php:94
+msgid "Site Key"
+msgstr ""
+
+#: includes/settings.php:102
+msgid "Secret Key"
+msgstr ""
+
+#. translators: %s: Cloudflare Turnstile dashboard URL
+#: includes/settings.php:152
+#, php-format
+msgid "Get your keys from the %s."
+msgstr ""
+
+#: includes/settings.php:154
+msgid "Cloudflare Turnstile dashboard"
+msgstr ""
+
+#: wp-login-gatekeeper.php:67
+#: wp-login-gatekeeper.php:74
+#: wp-login-gatekeeper.php:100
+#: wp-login-gatekeeper.php:108
+#: wp-login-gatekeeper.php:132
+#: wp-login-gatekeeper.php:140
+#: wp-login-gatekeeper.php:163
+#: wp-login-gatekeeper.php:171
+msgid "Error"
+msgstr ""
+
+#: wp-login-gatekeeper.php:67
+#: wp-login-gatekeeper.php:100
+#: wp-login-gatekeeper.php:132
+#: wp-login-gatekeeper.php:163
+msgid "Please complete the verification."
+msgstr ""
+
+#: wp-login-gatekeeper.php:74
+#: wp-login-gatekeeper.php:108
+#: wp-login-gatekeeper.php:140
+#: wp-login-gatekeeper.php:171
+msgid "Turnstile verification failed. Please try again."
+msgstr ""
