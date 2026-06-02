@@ -54,6 +54,10 @@ function wplg_enqueue_turnstile_script(): void {
 	);
 	wp_script_add_data( 'cloudflare-turnstile', 'async', true );
 	wp_script_add_data( 'cloudflare-turnstile', 'defer', true );
+
+	wp_register_style( 'wplg-login', false );
+	wp_enqueue_style( 'wplg-login' );
+	wp_add_inline_style( 'wplg-login', '#login { width: 350px; }' );
 }
 
 // 2. Inject the widget into all native WordPress forms.
